@@ -3,13 +3,20 @@ body{
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+main {
+    text-align: justify;
+    margin: 0% 25%;
+}
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
     align-items: center;
     padding: 16px;
+}
+
+header{
+    text-align: center;
 }
 
 header img{
@@ -44,6 +51,10 @@ footer a{
 
 footer {
     margin-top: 2px;
+}
+
+footer p{
+    color: 	#A9A9A9;
 }
 
 .container{
